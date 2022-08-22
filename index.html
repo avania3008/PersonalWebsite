@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/26f2ba8cb7.js" crossorigin="anonymous"></script>
+    
+    <!-- Swiper CSS -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  
+
+    <!-- Website Icon -->
+    <link rel="icon" href="assets/img/web-icon.png" type="image/x-icon">
+    <title>Portfolio Website - Aurellia Vania</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+        <nav class="nav container" id="navbar">
+            <img src="assets/img/web-icon.png" class="nav_logo_img" alt="" title="Hello, nice to meet you!">
+            <a href="" class="nav_logo_text">Aurellia Vania</a>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#" class="nav_link"><i class="uil uil-estate nav_icon"></i> Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#profile" class="nav_link"><i class="uil uil-user nav_icon"></i> Profile</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#experiences" class="nav_link"><i class="uil uil-briefcase-alt nav_icon"></i> Experiences</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link"><i class="uil uil-brain nav_icon"></i> Skills</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#portfolio" class="nav_link"><i class="uil uil-file-alt nav_icon"></i> Portfolio</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" download class="nav_link" id="dwl_cv"><i class="uil uil-download-alt nav_icon"></i> Download CV</a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav_close" id="nav-close"></i>
+            </div>
+            
+            <div class="nav_btns">
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+
+            <div class="nav_dwl">
+                <a href="#" download><i class="uil uil-download-alt nav_icon"></i>&nbsp;Download CV</a>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_content grid">
+                    <div class="home_social">
+                        <a href="https://www.facebook.com/a.vaniayb/" target="_blank" class="home_social_icon"><i class="uil uil-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/aurelliavyb/" target="_blank" class="home_social_icon"><i class="uil uil-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/aurelliavyb/" target="_blank" class="home_social_icon"><i class="uil uil-linkedin-alt"></i></a>
+                        <a href="https://github.com/avania3008" target="_blank" class="home_social_icon"><i class="uil uil-github-alt"></i></a>
+                    </div>
+                    <div class="home_data">
+                        <h1 class="home_title">Welcome to my portfolio website!</h1>
+                        <h1 class="home_intro">I'm <a class="home_myname">Aurellia Vania</a></h1>
+                        <h2 class="home_subtitle">Data Analytics & Information Technology Enthusiast</h2>
+                        <br>
+                        <a href="#contact" class="button button-flex"><i class="uil uil-envelopes button_icon"></i>Reach Me</a>
+                    </div>
+                    <div class="home_img">
+                        <img class="my_image" src="assets/img/aurel.png" alt="" title="Credit to my friend Dayu (IG : @afifadayu)">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll">
+                <a href="#profile" class="scroll_button_down button-flex">
+                    <span class="scroll_name">More About Me</span>
+                    <i class="uil uil-arrow-circle-down"></i>
+                </a>
+            </div> 
+        </section>
+
+        <section class="profile section" id="profile">
+            <!-- <div class="title_container grid">
+                <div class="scroll">
+                    <a href="#" class="scroll_button_up button-flex">
+                        <span class="scroll_name">Home</span>
+                        <i class="uil uil-arrow-circle-up"></i>
+                    </a>
+                </div>
+                <div>
+                    <h2 class="section_title">PROFILE</h2>
+                    <div class="strike">
+                        <span><i class="uil uil-user"></i></span>
+                    </div>
+                    <span class="section_subtitle">General information about me</span>
+                </div>
+                <div class="scroll">
+                    <a href="#experiences" class="scroll_button_down button-flex">
+                        <span class="scroll_name">Experiences</span>
+                        <i class="uil uil-arrow-circle-down"></i>
+                    </a>
+                </div> 
+            </div> -->
+            <div>
+                <h2 class="section_title">PROFILE</h2>
+                <div class="strike">
+                    <span><i class="uil uil-user"></i></span>
+                </div>
+                <span class="section_subtitle">General information about me</span>
+            </div>
+            <div class="profile_container container grid">
+                <div>
+                    <img src="assets/img/photo.jpg" alt="" class="about_img">
+                </div>
+                <div class="id_detail_container grid">
+                    <div class="id_detail">
+                        <i class="uil uil-chat-bubble-user about_info_icon"></i>
+                        <div>
+                            <div class="about_info_title">Nickname</div>
+                            <div class="about_info_name">Aurel / Vania</div>
+                        </div>
+                    </div>
+                    <div class="id_detail">
+                        <i class="uil uil-calendar-alt about_info_icon"></i>
+                        <div>
+                            <div class="about_info_title">Birth Date</div>
+                            <div class="about_info_name">August 30th, 1999</div>
+                        </div>
+                    </div>
+                    <div class="id_detail">
+                        <i class="uil uil-map-pin about_info_icon"></i>
+                        <div>
+                            <div class="about_info_title">Domicile</div>
+                            <div class="about_info_name">Semarang, Indonesia</div>
+                        </div>
+                    </div>
+                    <div class="id_detail">
+                        <i class="uil uil-language about_info_icon"></i>
+                        <div>
+                            <div class="about_info_title">Language</div>
+                            <div class="about_info_name">Indonesia, English</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about_desc">
+                    <h2 class="about_fullname">Aurellia Vania Yosephine Budiman</h2>
+                    <div class="strike">
+                        <span><i class="uil uil-info-circle"></i></span>
+                    </div>
+                    <br>
+                    <div>
+                        I'm an undegraduate student who majors in computer science and statistics at Bina Nusantara University. I'm interested in processing and analyzing data using technologies to solve problems.
+                        <br><br>
+                        Personally, I'm a well-organized, conscientious person who enjoys learning new things. Learning new things comes to me rather quickly, especially when they appeal to my interests.
+                        <br><br>
+                        I'm currently concentrating on obtaining an entry-level position in the subject of data analytics or data science, but I'm still keeping my options open for positions in the computer science industry.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Experiences -->
+        <section class="experiences section" id="experiences">
+            <!-- <div class="title_container grid">
+                <div class="scroll">
+                    <a href="#profile" class="scroll_button_up button-flex">
+                        <span class="scroll_name">Profile</span>
+                        <i class="uil uil-arrow-circle-up"></i>
+                    </a>
+                </div>
+                <div>
+                    <h2 class="section_title">EXPERIENCES</h2>
+                    <div class="strike">
+                        <span><i class="uil uil-briefcase-alt"></i></span>
+                    </div>
+                    <span class="section_subtitle">My journey to get the skills</span>
+                </div>
+                <div class="scroll">
+                    <a href="#skills" class="scroll_button_down button-flex">
+                        <span class="scroll_name">Skills</span>
+                        <i class="uil uil-arrow-circle-down"></i>
+                    </a>
+                </div> 
+            </div> -->
+            <div>
+                <h2 class="section_title">EXPERIENCES</h2>
+                <div class="strike">
+                    <span><i class="uil uil-briefcase-alt"></i></span>
+                </div>
+                <span class="section_subtitle">My journey to get the skills</span>
+            </div>
+            <div class="exp_container container">
+                <div class="exp_tabs">
+                    <div class="exp_button button-flex exp_active" data-target="#formal-education">
+                        <i class="uil uil-graduation-cap exp_icon"></i> Formal Education
+                    </div>git
+                    <div class="exp_button button-flex" data-target="#work">
+                        <i class="uil uil-briefcase exp_icon"></i> Work
+                    </div>
+                    <div class="exp_button button-flex" data-target="#organizational">
+                        <i class="uil uil-users-alt exp_icon"></i> Organizational
+                    </div>
+                    <div class="exp_button button-flex" data-target="#others">
+                        <i class="uil uil-book-reader exp_icon"></i> Others
+                    </div>
+                </div>
+                <hr class="hr">
+                <div class="exp_sections">
+                    <!-- formal edu -->
+                    <div class="exp_content exp_active" data-content id="formal-education">
+                        <div class="exp_data">
+                            <div class="exp_time">
+                                2017 - Expected Sept. 2022
+                            </div>
+                            <div>
+                                <span class="exp_rounder"></span>
+                                <span class="exp_line"></span>
+                            </div>
+                            <div>
+                                <h3 class="exp_title">Bina Nusantara University</h3>
+                                <span class="exp_subtitle">Computer Science and Statistics Major</span>
+                                <div class="exp_location">
+                                    <i class="uil uil-map-pin"></i> West Jakarta, Indonesia
+                                </div>
+                                <div class="exp_desc">
+                                    <p>Current GPA (9th Semester) : 3.85 / 4.00</p>      
+                                </div>
+                                <div class="exp_view">
+                                    <a href="https://bit.ly/3JO7wYR" target="_blank"><i class="uil uil-file-info-alt"></i> View Score Details</a>
+                                </div>
+                                <br><br><br>
+                            </div>
+                        </div>
+                        <div class="exp_data">
+                            <div class="exp_time">
+                                2014 - 2017
+                            </div>
+                            <div>
+                                <span class="exp_rounder"></span>
+                                <span class="exp_line"></span>
+                            </div>
+                            <div>
+                                <h3 class="exp_title">Karangturi National School</h3>
+                                <span class="exp_subtitle">Senior High School</span>
+                                <div class="exp_location">
+                                    <i class="uil uil-map-pin"></i> Semarang, Indonesia
+                                </div>
+                                <br><br><br>
+                            </div>
+                        </div>
+                        <div class="exp_data">
+                            <div class="exp_time"></div>
+                            <div><span class="exp_start"></span></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <!-- work -->
+                    <div class="exp_content" data-content id="work">
+                        <div class="exp_data">
+                            <div class="exp_time">
+                                Sept. 2021 - Feb. 2022
+                            </div>
+                            <div>
+                                <span class="exp_rounder"></span>
+                                <span class="exp_line"></span>
+                            </div>
+                            <div>
+                                <h3 class="exp_title">PT. Maybank Indonesia Finance Tbk.</h3>
+                                <span class="exp_subtitle">Data Scientist Intern</span>
+                                <div class="exp_location">
+                                    <i class="uil uil-map-pin"></i> Central Jakarta, Indonesia
+                                </div>
+                                <div class="exp_desc">
+                                    <ul>
+                                        <li>Extracting and loading several data from SQL Server Management Studio (SSMS) to Hive data warehouse using Sqoop (Hadoop environment)</li>
+                                        <li>Enhancing and fixing a feature in one of the company’s internal websites to support their operational activities; includes updating the related stored procedures</li>
+                                        <li>Analyzing company’s personal customer demographic segmentation using K-Modes algorithm</li>
+                                    </ul>
+                                </div>
+                                <div class="exp_view">
+                                    <a href="assets/files/Surat Keterangan Magang.pdf" target="_blank"><i class="uil uil-file-info-alt"></i> View Internship Certificate</a>
+                                </div>
+                                <br><br><br>
+                            </div>
+                        </div>
+                        <div class="exp_data">
+                            <div class="exp_time"></div>
+                            <div><span class="exp_start"></span></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <!-- Organizational -->
+                    <div class="exp_content" data-content id="organizational">
+                        <div class="exp_data">
+                            <div class="exp_time">
+                                Sept. 2018 - Jan. 2020
+                            </div>
+                            <div>
+                                <span class="exp_rounder"></span>
+                                <span class="exp_line"></span>
+                            </div>
+                            <div>
+                                <h3 class="exp_title">BINUS Statistics Student Association (HIMSTAT)</h3>
+                                <span class="exp_subtitle">Member of Learning & Research Division</span>
+                                <div class="exp_desc">
+                                    <ul>
+                                        <li>Creating Statistics learning module for junior students</li>
+                                        <li>Contributing and participating in organizational events (Benchmarking, Study Tour, committee, etc.)</li>
+                                    </ul>
+                                </div>
+                                <br><br><br>
+                            </div>
+                        </div>
+                        <div class="exp_data">
+                            <div class="exp_time">
+                                Oct. 2018 - Feb. 2019
+                            </div>
+                            <div>
+                                <span class="exp_rounder"></span>
+                                <span class="exp_line"></span>
+                            </div>
+                            <div>
+                                <h3 class="exp_title">BINUS Student Learning Community (BSLC)</h3>
+                                <span class="exp_subtitle">Mentor</span>
+                                <div class="exp_desc">
+                                    <ul>
+                                        <li>Mentoring other students with GPA less than 2.00</li>
+                                        <li>Create and share reports for mentoring progress monthly</li>
+                                    </ul>
+                                </div>
+                                <br><br><br>
+                            </div>
+                        </div>
+                        <div class="exp_data">
+                            <div class="exp_time"></div>
+                            <div><span class="exp_start"></span></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <!-- other -->
+                    <div class="exp_content" data-content id="others">
+                        <div class="exp_data">
+                            <div class="exp_time">
+                                Courses & Training
+                            </div>
+                            <div>
+                                <span class="exp_rounder"></span>
+                                <span class="exp_line"></span>
+                            </div>
+                            <div>
+                                <h3 class="exp_title">SoloLearn, Anak Teknik Indonesia, DataCamp, etc.</h3>
+                                <div class="exp_desc">
+                                    Enroll in online courses and trainings to hone data analytics and programming skills
+                                </div>
+                                <div class="exp_view">
+                                    <a href="https://shorturl.at/beuW2" target="_blank"><i class="uil uil-file-info-alt"></i> View All Certificates</a>
+                                </div>
+                                <br><br>
+                            </div>
+                        </div>
+                        <div class="exp_data">
+                            <div class="exp_time">
+                                Seminar
+                            </div>
+                            <div>
+                                <span class="exp_rounder"></span>
+                                <span class="exp_line"></span>
+                            </div>
+                            <div>
+                                <h3 class="exp_title">Neural Network for Multivariate Time Series: Teori, Terapan dan Simulasi</h3>
+                                <span class="exp_subtitle">by Jusuran Statistika Universitas Brawijaya</span>
+                                <div class="exp_view">
+                                    <a href="assets/files/Seminar Statistika UB - Aurellia Vania Yosephine Budiman.pdf" target="_blank"><i class="uil uil-file-info-alt"></i> View Certificate</a>
+                                </div>
+                                <br><br>
+                            </div>
+                        </div>
+                        <div class="exp_data">
+                            <div class="exp_time"></div>
+                            <div><span class="exp_start"></span></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills -->
+        <section class="skills section" id="skills">
+            <!-- <div class="title_container grid">
+                <div class="scroll">
+                    <a href="#experiences" class="scroll_button_up button-flex">
+                        <span class="scroll_name">Experiences</span>
+                        <i class="uil uil-arrow-circle-up"></i>
+                    </a>
+                </div>
+                <div>
+                    <h2 class="section_title">SKILLS</h2>
+                    <div class="strike">
+                        <span><i class="uil uil-brain"></i></span>
+                    </div>
+                    <span class="section_subtitle">My tools and competencies</span>
+                </div>
+                <div class="scroll">
+                    <a href="#portfolio" class="scroll_button_down button-flex">
+                        <span class="scroll_name">Portfolio</span>
+                        <i class="uil uil-arrow-circle-down"></i>
+                    </a>
+                </div> 
+            </div> -->
+            <div>
+                <h2 class="section_title">SKILLS</h2>
+                <div class="strike">
+                    <span><i class="uil uil-brain"></i></span>
+                </div>
+                <span class="section_subtitle">My tools and competencies</span>
+            </div>
+            <div class="skills_container container grid">
+                <div>
+                    <div class="skills_content skills_opened">
+                        <div class="skills_header">
+                            <img src="assets/img/skills/hardskills.png" class="skills_img" alt="">
+                            <h2 class="skills_title">Technical Skills</h2>
+                            <i class="uil uil-plus skills_expand"></i>
+                        </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <br>
+                                <p class="skills_name">Python</p>
+                                <p class="skills_name">R</p>
+                                <p class="skills_name">SQL</p>
+                                <p class="skills_name">Statistics</p>
+                                <p class="skills_name">Data Mining</p>
+                                <p class="skills_name">Machine Learning</p>
+                                <p class="skills_name">HTML</p>
+                                <p class="skills_name">CSS</p>
+                                <p class="skills_name">JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills_content skills_closed">
+                        <div class="skills_header">
+                            <img src="assets/img/skills/softskills.png" class="skills_img" alt="">
+                            <h2 class="skills_title">Soft Skills</h2>
+                            <i class="uil uil-plus skills_expand"></i>
+                        </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <br>
+                                <p class="skills_name">Communication</p>
+                                <p class="skills_name">Problem Solving</p>
+                                <p class="skills_name">Time Management</p>
+                                <p class="skills_name">Teamwork</p>
+                                <p class="skills_name">Adaptability</p>
+                                <p class="skills_name">Work Ethic</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills_content skills_closed">
+                        <div class="skills_header">
+                            <img src="assets/img/skills/tools.png" class="skills_img" alt="">
+                            <h2 class="skills_title">Tools</h2>
+                            <i class="uil uil-plus skills_expand"></i>
+                        </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <br>
+                                <p class="skills_name">RStudio</p>
+                                <p class="skills_name">Jupyter Notebook</p>
+                                <p class="skills_name">Google Colaboratory</p>
+                                <p class="skills_name">SPSS</p>
+                                <p class="skills_name">Visual Studio Code</p>
+                                <p class="skills_name">Microsoft SQL Server</p>
+                                <p class="skills_name">Microsoft Excel</p>
+                                <p class="skills_name">Hadoop (Hive, Sqoop)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </section>
+        <!-- Portfolio -->
+        <section class="project section" id="portfolio">
+            <!-- <div class="title_container grid">
+                <div class="scroll">
+                    <a href="#skills" class="scroll_button_up button-flex">
+                        <span class="scroll_name">Skills</span>
+                        <i class="uil uil-arrow-circle-up"></i>
+                    </a>
+                </div>
+                <div>
+                    <h2 class="section_title">PORTFOLIO</h2>
+                    <div class="strike">
+                        <span><i class="uil uil-file-alt"></i></span>
+                    </div>
+                    <span class="section_subtitle">My done projects</span>
+                </div>
+                <div class="scroll">
+                    <a href="#contact" class="scroll_button_down button-flex">
+                        <span class="scroll_name">Contact Me</span>
+                        <i class="uil uil-arrow-circle-down"></i>
+                    </a>
+                </div> 
+            </div> -->
+            <div>
+                <h2 class="section_title">PORTFOLIO</h2>
+                <div class="strike">
+                    <span><i class="uil uil-file-alt"></i></span>
+                </div>
+                <span class="section_subtitle">My done projects</span>
+            </div>
+            <div class="project_swiper swiper mySwiper">
+                <div class="project_wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="card_content">
+                            <div class="image_content">
+                                <img src="assets/img/project/co2-preview.JPG" alt="">
+                            </div>
+                            <div class="text_content">
+                                <div>
+                                    <h3 class="project_title">CO2 Concentration Forecaster</h3>
+                                    <p class="project_desc">
+                                        Web-based application made with Python Streamlit to forecast CO2 concentration of Mauna Loa Observatory using auto-ARIMA and auto-SARIMA.
+                                    </p>
+                                </div>
+                                <div class="card_buttons">
+                                    <a href="https://github.com/avania3008/CO2Forecaster" target="_blank" class="button button-flex button-small project_button"><i class="uil uil-arrow button_icon"></i> Source Code</a>
+                                    <a href="" target="_blank" class="button button-flex button-small project_button"><i class="uil uil-window button_icon"></i> Demo App</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card_content">
+                            <div class="image_content">
+                                <img src="assets/img/project/fraud-preview.JPG" alt="">
+                            </div>
+                            <div class="text_content">
+                                <div>
+                                    <h3 class="project_title">Fraudulent Claim Classificator</h3>
+                                    <p class="project_desc">
+                                        Web-based application made with R Shiny to classify whether a claim on cars physical damage is a fraud or not using several classification machine learning algorithms.
+                                    </p>
+                                </div>
+                                
+                                <div class="card_buttons">
+                                    <a href="https://github.com/avania3008/Fraudulent-Claim-Classificator" target="_blank" class="button button-flex button-small project_button"><i class="uil uil-arrow button_icon"></i> Source Code</a>
+                                    <a href="" target="_blank" class="button button-flex button-small project_button"><i class="uil uil-window button_icon"></i> Demo App</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card_content">
+                            <div class="image_content">
+                                <img src="assets/img/project/survival-preview.JPG" alt="">
+                            </div>
+                            <div class="text_content">
+                                <div>
+                                    <h3 class="project_title">Survival Analysis of Patients with Cardiovascular Disease</h3>
+                                    <p class="project_desc">
+                                        Analysis about cardiovascular patients' survival time based on several variables using Cox Proportional Hazard model and Extended Cox model.
+                                    </p>
+                                </div>
+                                <div class="card_buttons">
+                                    <a href="https://drive.google.com/file/d/1j73nTKGAyB-gY6n_1FrpuRqDBvmO8l-P/view?usp=sharing" target="_blank" class="button button-flex button-small project_button"><i class="uil uil-link-h button_icon"></i> View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card_content">
+                            <div class="image_content">
+                                <img src="assets/img/project/cluster-hdi-preview.JPG" alt="">
+                            </div>
+                            <div class="text_content">
+                                <div>
+                                    <h3 class="project_title">Clustering Provinces in Indonesia based on Human Development Index Factors</h3>
+                                    <p class="project_desc">
+                                        Cluster the provinces in Indonesia using K-Means algorithm based on significant Human Development Index factors (tested using Linear Regression model).
+                                    </p>
+                                </div>
+                                <div class="card_buttons">
+                                    <a href="https://drive.google.com/file/d/1ObQZq62IgSeib8jYurfPP51xJYVY3_Jw/view?usp=sharing" target="_blank" class="button button-flex button-small project_button"><i class="uil uil-link-h button_icon"></i> View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card_content">
+                            <div class="image_content">
+                                <img src="assets/img/project/smr-preview.JPG" alt="">
+                            </div>
+                            <div class="text_content">
+                                <div>
+                                    <h3 class="project_title">Analysis of BINUS Student Satisfaction Towards Zoom</h3>
+                                    <p class="project_desc">
+                                        Using Structural Equation Modeling (SEM) to analyze multiple relationships between factors that affect BINUS student satisfaction towards Zoom as the video conference software for online classes.
+                                    </p>
+                                </div>
+                                <div class="card_buttons">
+                                    <a href="https://drive.google.com/file/d/1-L2_hUv3nDCWSVew_e52HBPUqfwVTgVj/view?usp=sharing" target="_blank" class="button button-flex button-small project_button"><i class="uil uil-link-h button_icon"></i> View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div> 
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer" id="footer">
+        <!-- <div class="scroll">
+            <a href="#" class="scroll_button_up button-flex">
+                <span class="scroll_name">Home</span>
+                <i class="uil uil-arrow-circle-up"></i>
+            </a>
+        </div>
+        <br> -->
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div class="footer_quotes">
+                    <p class="quotes">"Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do."</p>
+                    <p class="author">- Pele</p>
+                </div>
+                <hr class="hr">
+                <div>
+                    <h3 class="footer_title" id="contact">Get In Touch With Me</h3>
+                </div>
+                <div class="socials_container">
+                    <div class="contact_info">
+                        <i class="uil uil-phone-volume contact_icon"></i>
+                        <div>
+                            <h3 class="contact_title">Phone / WhatsApp</h3>
+                            <span class="contact_subtitle">+62 813-1400-7654</span>
+                        </div>
+                    </div>
+                    <div class="contact_info">
+                        <i class="uil uil-envelope-alt contact_icon"></i>
+                        <div>
+                            <h3 class="contact_title">E-mail</h3>
+                            <span class="contact_subtitle">a.vaniayb@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="divider">
+                    </div>
+                    <div class="contact_socials">
+                        <a href="https://www.facebook.com/a.vaniayb/" target="_blank" class="social_icon"><i class="uil uil-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/aurelliavyb/" target="_blank" class="social_icon"><i class="uil uil-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/aurelliavyb/" target="_blank" class="social_icon"><i class="uil uil-linkedin-alt"></i></a>
+                        <a href="https://github.com/avania3008" target="_blank" class="social_icon"><i class="uil uil-github-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- scroll top -->
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        let swiper = new Swiper(".project_swiper", {
+            effect: "coverflow",
+            spaceBetween: 30,
+            loop: true,
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true,
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+              dynamicBullets: true,
+            },
+          });
+    </script>
+</body>
+
+</html>
